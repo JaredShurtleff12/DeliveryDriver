@@ -8,4 +8,7 @@ public class Collision : MonoBehaviour
     {
         Debug.Log("Oops, I bumped into a circle!");
     }
+    void OnTriggerEnter2D(Collider2D other) {
+        Debug.Log("What was that?");
+    }
 }
